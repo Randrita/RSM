@@ -13,6 +13,16 @@
     padding-top: 30px;
   }
 
+  .about img{
+    margin-top: 15px;
+    width:500px ;
+    height:350px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    
+  }
+
   #certificate{
     background-image: url("../images/about_certBg.jpg");
   }
