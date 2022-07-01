@@ -14,9 +14,9 @@
   }
 
   .about img{
-    margin-top: 15px;
-    width:500px ;
-    height:350px;
+    margin-top: 70px;
+    width:570px ;
+    height:300px;
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
@@ -231,3 +231,124 @@
   /* .list-item .footer-link _2{
     font-size: 12px;
   } */
+
+  @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+.mission {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+  
+}
+
+/* .mission .container {
+	background: linear-gradient(135deg, #0d0e20, #222343);
+	font-family: Lato, sans-serif;
+} */
+
+.mission h1 {
+	color: #ffffff;
+}
+
+.mission .container {
+	min-height: 70vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  
+	gap: 1rem;
+}
+
+.mission .cards {
+	display: flex;
+	gap: 1rem;
+
+}
+
+.mission .card {
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	align-items: flex-end;
+	height: 22rem;
+	width: 16rem;
+  border-radius: 1rem;
+	box-shadow: 0 0 2px #ffffff80;
+}
+
+.mission .card.one {
+	background-image: url("../images/mission.jpg");
+  margin-right: 27px;
+  width: 350px;
+}
+
+.mission .card.two {
+	background-image: url("../images/vision.jpg");
+  margin-right: 27px;
+  width: 350px;
+}
+
+.mission .card.three {
+	background-image: url("../images/values.jpg");
+  width: 350px;
+}
+
+.mission .details {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	background-color: #ffffff10;
+	border-top: 1px solid #ffffff30;
+	border-radius: 1rem;
+	-webkit-backdrop-filter: blur(0.75rem);
+	backdrop-filter: blur(0.75rem);
+	transition: ease 0.5s;
+}
+
+.mission .details:hover {
+	padding-bottom: 0.5rem;
+}
+
+.mission .content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 2rem 1rem;
+}
+
+.mission .content h2 {
+	color: #ffffffdd;
+	font-size: 1.25rem;
+	margin-bottom: 0.5rem;
+}
+
+.mission .content p {
+	color: #ffffffaa;
+	margin-bottom: 1.5rem;
+	text-align: center;
+}
+
+.mission .content a {
+	background-image: linear-gradient(
+		90deg,
+		#f90000aa 0%,
+		#d54747ee 50%,
+		#900000aa 100%
+	);
+	background-size: 200%;
+	font-size: 0.8rem;
+	font-weight: 700;
+	letter-spacing: 0.1rem;
+	color: #000000bb;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0.75rem 4rem;
+	border-radius: 0.5rem;
+	box-shadow: 0 0.5rem 10px -3px #00000025;
+	transition: 0.5s;
+}
+
+.mission .content a:hover {
+	background-position: right;
+}
