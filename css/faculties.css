@@ -21,12 +21,16 @@ p,a,h1,h2,h3,h4 {
     color: #e5383b;
 }
 
+.section-team .header-section .small-title span {
+
+    color: #000000;
+}
+
 .section-team .header-section .title {
     font-weight: 400;
     font-size: 30px;
     color: rgb(59, 59, 59);
     border-bottom: 1px solid #e5383b;
-   
 
     
 }

@@ -120,6 +120,11 @@ Navbar
 .dropdown:hover>.dropdown-menu {
   display: block;
 }
+.dropdown-menu > a:hover {
+  background-image: none;
+  background-color: #e5383b;
+  color: #fff;
+}
 
 .dropdown>.dropdown-toggle:active {
   /*Without this, clicking will make it sticky*/
@@ -145,6 +150,7 @@ WHATSAPP SECTION
   font-size:30px;
 	box-shadow: 2px 2px 3px #999;
   z-index:100;
+  animation: pulse-green 2s ease infinite;
 }
 
 
@@ -242,7 +248,7 @@ WHATSAPP SECTION ENDS
   background-color: #dd4b39;
 }
 
-.tab .linkedin p i {
+.tab .insta p i {
   left: 20px;
 }
 
@@ -396,6 +402,23 @@ WHATSAPP SECTION ENDS
         transform: scale(0.94);
         box-shadow: 0 0 0 0 rgba(255,255,255,0);
     }
+}
+
+@keyframes pulse-green {
+  0% {
+    transform: scale(0.94);
+    box-shadow: 0 0 0 0 rgba(51, 217, 178, 0.7);
+  }
+  
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(51, 217, 178, 0);
+  }
+  
+  100% {
+    transform: scale(0.94);
+    box-shadow: 0 0 0 0 rgba(51, 217, 178, 0);
+  }
 }
 
 
@@ -1404,9 +1427,9 @@ Footer 1 start
 {
   background-image: url('../images/bg_insta.jpg');
 }
-.social-icons a.linkedin:hover
+.social-icons a.youtube:hover
 {
-  background-color:#007bb6
+  background-color:#dc0000
 }
 .social-icons a.dribbble:hover
 {
@@ -1433,14 +1456,49 @@ Contact
 -----------------------*/
 
 
+
+
+.contact{
+   padding: 80px 0;
+}
+
+
 .form{
   
   justify-content: center;
   display: table;
   width: 100%;
   height: 100vh;
-  background: url(../images/contact-bg.jpg) top center;
-  background-size: cover;
+  color:#000000;
+  
+}
+.contact .header-section .small-title {
+    margin-top: 15px;
+    margin-bottom: 15px;
+	  font-size: 35px;
+    font-weight: 700;
+    color: #e5383b;
+}
+
+.contact .header-section .small-title span {
+
+    color: #000000;
+}
+
+.contact .header-section .title {
+    font-weight: 400;
+    font-size: 30px;
+    color: rgb(59, 59, 59);
+    border-bottom: 1px solid #e5383b;
+    
+}
+
+.form .ex{
+  font-weight: 400;
+  font-size: 30px;
+  color: rgb(59, 59, 59);
+  border-bottom: 1px solid #e5383b;
+  text-align: center;
 }
 
 .videoWrapper {
@@ -1456,6 +1514,7 @@ Contact
 	left: 0;
 	width: 100%;
 	height: 100%;
+
 }
 
 @media only screen and (max-width: 768px) {
