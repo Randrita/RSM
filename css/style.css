@@ -156,6 +156,114 @@ WHATSAPP SECTION
 WHATSAPP SECTION ENDS
 -----------------------------------------*/
 
+/*------------Sticky Tabbar Starts---------------*/
+.tab{
+  margin-top: 210px;
+  position: fixed;
+  z-index: 100;
+  margin-left: 18px;
+  opacity: 0.85;
+}
+
+.tab body {
+  background-color: #a4161a;
+
+}
+
+.tab a {
+  text-decoration: none;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 3;
+}
+
+.tab p {
+  color: white;
+  position: relative;
+  left: -10px;
+  font-family: "Lato";
+}
+
+.tab #sidebar {
+  height: 250px;
+  width: 10px;
+  position: fixed;
+  text-align: center;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.tab p i {
+  left: 30px;
+  position: relative;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 24px;
+}
+
+.tab .social {
+  margin-left: -200px;
+  width: 230px;
+  padding: 0;
+  display: inline-table;
+  height: 0px;
+  background-color: #a4161a;
+  -moz-transition-property: margin-left;
+  -moz-transition-duration: 0.2s;
+  -moz-transition-delay: 0.2s;
+  -ms-transition-property: margin-left;
+  -ms-transition-duration: 0.2s;
+  -ms-transition-delay: 0.2s;
+  -o-transition-property: margin-left;
+  -o-transition-duration: 0.2s;
+  -o-transition-delay: 0.2s;
+  -webkit-transition-property: margin-left;
+  -webkit-transition-duration: 0.2s;
+  -webkit-transition-delay: 0.2s;
+  box-shadow: 0px 0px 6px 0px #3e3d3d;
+  cursor: pointer;
+}
+
+.tab .social:hover {
+  margin-left: -30px;
+  width: 230px;
+  background-color: #3b5998;
+}
+
+.tab .facebook:hover {
+  background-color: #3b5998;
+}
+
+.tab .twitter:hover {
+  background-color: #4099ff;
+}
+
+.tab .google:hover {
+  background-color: #dd4b39;
+}
+
+.tab .linkedin p i {
+  left: 20px;
+}
+
+.tab .google p i {
+  left: 35px;
+}
+
+.tab .youtube p i {
+  left: 18px;
+}
+
+.tab .youtube:hover {
+  background-color: #e52d27;
+}
+
+.tab .insta:hover {
+  background-image: url('../images/bg_insta1.jpg');
+}
+
+
+/*------------Sticky Tabbar Ends----------------*/
 
 .Home{
     min-height: 100vh;
@@ -1541,3 +1649,7 @@ Contact
 .link:hover {
 	text-decoration: underline;
 }
+
+/*--------------Sticky Tabbar------
+---------------------------------*/
+
