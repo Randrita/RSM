@@ -19,7 +19,21 @@ p,a,h1,h2,h3,h4 {
     
   }
 
+  .card{
+    margin-left: 95px;
+    width: 500px;
+    height:450px;
+  }
 
+
+  
+#chDonut1{
+    margin-top: 2px;
+    width:400px ;
+    height:400px;
+    padding: 5px;
+    margin-left:35px;
+}
 
 .section-team {
 	font-family: "Poppins", sans-serif;
@@ -119,3 +133,9 @@ p,a,h1,h2,h3,h4 {
 .section-team .single-person:hover .speciality {
 	color: #fff;
 }
+
+/*-------------------------------------
+FACULTY CSS
+-------------------------------------*/
+
+

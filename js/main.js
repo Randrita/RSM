@@ -47,4 +47,11 @@ $(document).ready(function(){
         smartSpeed: 800
     });  
 
+    /*-------------Counter Faculty-------*/
+        $('.count-number').counterUp({
+            delay: 10,
+            time: 10000
+        });
+   
+
 });
