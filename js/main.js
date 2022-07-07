@@ -48,10 +48,18 @@ $(document).ready(function(){
     });  
 
     /*-------------Counter Faculty-------*/
-        $('.count-number').counterUp({
-            delay: 10,
-            time: 10000
-        });
+    // $('.counter-value').each(function(){
+    //     $(this).prop('Counter',0).animate({
+    //         Counter: $(this).text()
+    //     },{
+    //         duration: 3500,
+    //         easing: 'swing',
+    //         step: function (now){
+    //             $(this).text(Math.ceil(now));
+    //         }
+    //     });
+    // });
    
+
 
 });
