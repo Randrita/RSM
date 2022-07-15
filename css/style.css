@@ -927,6 +927,7 @@ body {
 .testimonial-area {
 	background: var(--blue);
 	position: relative;
+  overflow: hidden;
 	z-index: 2;
 	padding: 50px 0;
 }
@@ -950,10 +951,10 @@ body {
 }
 .single-testimonial p {
 	color: #000;
-	font-size: 15px;
-	line-height: 24px;
-	padding: 50px;
-	padding-bottom: 30px;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 35px;
+	padding-bottom: 20px;
 	position: relative;
 	z-index: 3;
 }
