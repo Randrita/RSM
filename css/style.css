@@ -986,7 +986,7 @@ body {
 	position: absolute;
 	z-index: 1;
 }
-.round-1::before {
+/* .round-1::before {
 	content: "";
 	position: absolute;
 	left: 88px;
@@ -1027,7 +1027,7 @@ body {
 	background: var(--main-color);
 	border-radius: 30px;
 	z-index: 1;
-}
+} */
 .client-video {
 	padding-right: 15px;
 }
@@ -1713,13 +1713,26 @@ Contact
 /*--------------Sticky Tabbar------
 ---------------------------------*/
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px){
 
   .home-img img{
     margin-top: 10%;
     margin-left: 0%;
     width: 80%;
   }
+
+  .my-card{
+    display: flexbox;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 5px;
+    align-items: center;
+    margin-left: 20%;
+    width: 60%;
+    height: auto;
+  }
+
+
 
 
 }
