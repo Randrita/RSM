@@ -1713,3 +1713,13 @@ Contact
 /*--------------Sticky Tabbar------
 ---------------------------------*/
 
+@media screen and (max-width: 480px) {
+
+  .home-img img{
+    margin-top: 10%;
+    margin-left: 0%;
+    width: 80%;
+  }
+
+
+}

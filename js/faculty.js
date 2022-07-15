@@ -30,7 +30,7 @@ var chDonut1 = document.getElementById("chDonut1");
 
 if (chDonut1) {
   new Chart(chDonut1, {
-      type: 'doughnut',
+      type: 'pie',
       data: chDonutData1,
       outerHeight: 500,
       outerWidth: 500,
