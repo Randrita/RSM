@@ -42,7 +42,7 @@ $(document).ready(function(){
         dots: true,
         nav: false,
         mouseDrag: true,
-        autoplay: false,
+        autoplay: true,
         autoplayTimeout: 4000,
         smartSpeed: 800,
         responsiveClass:true,
@@ -55,7 +55,7 @@ $(document).ready(function(){
                 items:2
             },
             1000:{
-                items:3,
+                items:2,
             }
         }
     });  
