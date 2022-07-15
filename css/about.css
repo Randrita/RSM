@@ -24,8 +24,14 @@
     
   }
 
+
+
   #certificate{
     background-image: url("../images/about_certBg.jpg");
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+    background-size: cover;
   }
   .portfolio {
     display: flex;
@@ -113,8 +119,11 @@
   
   @media screen and (max-width: 480px) {
     .card {
-    width: 100%;
+    width: 90%;
+    margin-bottom: 5%;
     }
+
+
   }
 
   :root {
@@ -352,4 +361,23 @@
 
 .mission .content a:hover {
 	background-position: right;
+}
+
+
+@media screen and (max-width: 480px) {
+  .about img{
+    width: 490px;
+    height: 300px;
+    margin-top:40px ;
+  }
+
+  .mission .cards{
+  display: flexbox;
+  flex-wrap: wrap;
+  margin-left: 10%;
+  margin-bottom: 5%;   
+  }
+
+
+
 }
