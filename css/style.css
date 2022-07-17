@@ -531,7 +531,7 @@ video POP UP section
     width: 60px;
     margin: 0 auto 30px;
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
     color: var(--main-color);
     position: relative;
     z-index: 1;
@@ -553,7 +553,7 @@ video POP UP section
 }
 .feature .feature-item:hover .icon{
     color: #ffffff;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .feature .feature-item:hover .icon::before{
@@ -564,7 +564,7 @@ video POP UP section
 
 .feature .feature-item .icon i{
     line-height: 60px;
-    font-size: 16px;
+    font-size: 21px;
 }
 .feature .feature-item h3{
     font-size: 22px;

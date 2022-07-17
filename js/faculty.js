@@ -32,9 +32,7 @@ if (chDonut1) {
   new Chart(chDonut1, {
       type: 'pie',
       data: chDonutData1,
-      outerHeight: 500,
-      outerWidth: 500,
-      innerHeight: 500,
+
       options: {
         plugins: {
             title: {

@@ -1,7 +1,4 @@
-p,a,h1,h2,h3,h4 {
-	margin: 0;
-	padding: 0;
-}
+
 
 .fac{
     padding: 15px;
@@ -19,18 +16,18 @@ p,a,h1,h2,h3,h4 {
     
   }
 
-  .card{
+
+  /* .card{
     margin-left: 95px;
     width: 500px;
     height:450px;
-  }
-
+  } */
 
   
 #chDonut1{
     margin-top: 2px;
-    width:400px ;
-    height:400px;
+    width:350px ;
+    height:100px;
     padding: 5px;
     margin-left:35px;
 }
@@ -228,3 +225,10 @@ FACULTY CSS
     @media screen and (max-width:990px){
     .counter{ margin-bottom: 40px; }
     }
+
+    @media screen and (max-width:480px){
+        .graphCounter #box{ margin-left: 10%; }
+        .fac img{
+            margin-left: 5px;
+        }
+        }
