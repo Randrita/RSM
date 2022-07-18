@@ -229,6 +229,6 @@ FACULTY CSS
     @media screen and (max-width:480px){
         .graphCounter #box{ margin-left: 10%; }
         .fac img{
-            margin-left: 5px;
+            margin-left: 10%;
         }
         }

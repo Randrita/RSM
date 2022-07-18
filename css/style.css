@@ -1772,6 +1772,9 @@ Contact
     height: auto;
   }
 
+  .press-section{
+    display: none;
+  }
 
 
 
